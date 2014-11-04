@@ -10,7 +10,7 @@ var add = function(event){
   var a = Number(inputA.value);
   var b = Number(inputB.value);
  
-  var answer = parseInt(a) + parseInt(b);
+  var answer = parseInt(a) / parseInt(b);
  
   console.log("helloWorld: start");
   showAnswer(answer);
